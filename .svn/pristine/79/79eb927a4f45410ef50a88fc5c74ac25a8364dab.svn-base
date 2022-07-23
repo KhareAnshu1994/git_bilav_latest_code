@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+
+	</startup>
+			
+			<connectionStrings>
+				<!--<add key="ConnectionString" value="host=103.228.83.115; Username=postgres; Password=sqlpass; Database=Mcyprod;" />-->
+				<add name="dbCon" connectionString="host=103.228.83.115; Username=postgres; Password=sqlpass; Database=Mcyprod;" />
+			</connectionStrings>
+			<appSettings>
+				<add key="remove_indexes" value="NIFTY 50 ARBITRAGE,NIFTY SERVICES SECTOR"/>
+				<add key="file_move_to_path" value="D:\Cylsys Utility\INDEX_MAILER_UTILITY\Folders\IndexvalFileBack\"/>
+				<add key="ErrorLogFile" value="D:\Cylsys Utility\INDEX_MAILER_UTILITY\Folders\Logs"/>
+				<add key="IndexValLogFile" value="D:\Cylsys Utility\INDEX_MAILER_UTILITY\Folders\Index_val_files"/>
+				<add key="SmtpPrimaryMailServer" value="smtp-postfix.utiamc.com" />
+				<add key="SenderEmail" value="NO-REPLY.CORPORATE@UTI.CO.IN" />
+				<!--<add key="ReceiverEmail" value="u.sreekumar@uti.co.in,shraddha.kalsekar@uti.co.in,ghanshyam.vishwakarma@cylsys.com,uti.fundaccounts@uti.co.in,uti.fundaccounts@uti.co.in,Aditi.Milgir@uti.co.in,Anoop.shetty@uti.co.in,Usha.varier@uti.co.in,Kaushik.chatterjee@uti.co.in" />-->
+
+				<add key="ReceiverEmail" value="ghanshyam.vishwakarma@cylsys.com,anshu.khare@cylsys.com" />
+				<add key="SenderPass" value="" />
+				<add key="Port" value="25" />
+				<add key="IsSsl" value="true" />
+				<add key="StartTime" value="19" />
+				
+			</appSettings>
+		
+
+	
+  <runtime>
+		
+
+	
+          <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+		
+
+	
+                  <dependentAssembly>
+		
+
+	
+                          <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+		
+
+	
+                          <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+		
+
+	
+                  </dependentAssembly>
+		
+
+	
+                  <dependentAssembly>
+		
+
+	
+                          <assemblyIdentity name="System.Buffers" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+		
+
+	
+                          <bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" />
+		
+
+	
+                  </dependentAssembly>
+		
+
+	
+                  <dependentAssembly>
+		
+
+	
+                          <assemblyIdentity name="System.Threading.Channels" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+		
+
+	
+                          <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+		
+
+	
+                  </dependentAssembly>
+		
+
+	
+                  <dependentAssembly>
+		
+
+	
+                          <assemblyIdentity name="Microsoft.Bcl.AsyncInterfaces" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+		
+
+	
+                          <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+		
+
+	
+                  </dependentAssembly>
+		
+
+	
+                  <dependentAssembly>
+		
+
+	
+                          <assemblyIdentity name="System.Text.Json" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+		
+
+	
+                          <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+		
+
+	
+                  </dependentAssembly>
+		
+
+	
+          </assemblyBinding>
+		
+
+	
+  </runtime>
+</configuration>

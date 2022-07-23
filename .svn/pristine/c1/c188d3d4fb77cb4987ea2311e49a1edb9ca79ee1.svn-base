@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1"/>
+    </startup>
+  <appSettings>
+    <!--<add key="AttachmentDownloadDir" value="D:\Nitin\BankStament\StatementDownloadUtility\Files\Downloaded"/>
+    <add key="attendedEmailLogFile" value="D:\Nitin\BankStament\StatementDownloadUtility\Files\Logs"/>
+    <add key="PrimaryMailServer" value="10.11.30.102"/>
+    <add key="SecondryMailServer" value="10.11.30.101"/>
+    <add key="MailServerPort" value="110"/>
+    <add key="MailBoxEmailId" value="bank.statements@uti.co.in"/>
+    <add key="MailBoxEmailPass" value="ut!@0303"/>
+    <add key="FileMoveDir" value="D:\Nitin\BankStament\StatementDownloadUtility\Files\Moved"/>
+    <add key="ErrorLogFile" value="D:\Nitin\BankStament\StatementDownloadUtility\Files\Logs"/>
+
+    <add key="ConnectionString" value="Data Source=192.168.1.200\SQLEXPRESS;Initial Catalog=DTS;UID=sa;password=mfbuat@123;" />-->
+
+
+    <!--Testing-->
+    <add key="AttachmentDownloadDir" value="C:\Publish_Project\BankStament\StatementDownloadUtility\Files\Downloaded"/>
+    <add key="attendedEmailLogFile" value="C:\Publish_Project\BankStament\StatementDownloadUtility\Files\Logs"/>
+    <add key="PrimaryMailServer" value="email-smtp.us-west-2.amazonaws.com"/>
+    <add key="SecondryMailServer" value="mail.myfundbucket.com"/>
+    <add key="MailBoxEmailId" value="no-reply@myfundbucket.com"/>
+    <add key="DisplayName" value="My Fund Bucket"/>
+    <add key="UserName" value="AKIAIXORCJR2XC6GXLYA"/>
+    <add key="MailBoxEmailPass" value="At2yedIzxTQh8ONdQQcI/5h3t0g4QQQYaQOt4eZ5zcmc"/>    
+    <add key="MailServerPort" value="587"/>
+    <add key="FileMoveDir" value="C:\Publish_Project\BankStament\StatementDownloadUtility\Files\Moved"/>
+    <add key="ErrorLogFile" value="C:\Publish_Project\BankStament\StatementDownloadUtility\Files\Logs"/>
+    <!--pawas.goyal@myfundbucket.com-->
+    <add key="MailHeaderIdentifier" value="by mail.cylsys.com"/>
+    <add key="ConnectionString" value="Data Source=DESKTOP-S613L6F\SQLEXPRESS;Initial Catalog=DTS;Integrated Security=true;"/>
+    
+  </appSettings>
+</configuration>

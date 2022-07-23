@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
+  </startup>
+  <appSettings>
+    <!--<add key="FileSourcePath" value ="D:\Nitin\Bankold\BankScripting Old\UPLOADS\downloadDir"/>
+    <add key="ConnectionString" value="Data Source=192.168.1.200;Initial Catalog=DTS_New;UID=sa;password=mfbuat@123;" />
+    <add key="FileArchivePath" value ="D:\Nitin\Bankold\BankScripting Old\UPLOADS\FileArchivePath"/>
+    <add key="ErrorLogFile" value ="D:\Nitin\Bankold\BankScripting Old\UPLOADS\ErrorLogFile"/>-->
+
+    <add key="FileSourcePath" value ="D:\UTI AWS WORK\hdfc"/>
+    <add key="ConnectionString" value="Data Source=192.168.1.200;Initial Catalog=DTS_New;UID=sa;password=mfbuat@123;" />
+    <add key="FileArchivePath" value ="D:\UTI AWS WORK\hdfc\FileArchivePath"/>
+    <add key="ErrorLogFile" value ="C:\Publish_Project\BankStament\UPLOADS\ErrorLogFile"/>
+
+  </appSettings>
+</configuration>

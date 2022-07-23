@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<startup>
+		<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+	</startup>
+	<appSettings>
+		<add key="dbCon" value="host=103.228.83.115; Username=postgres; Password=sqlpass; Database=Mcyprod"/>
+		<add key="file_save_location" value="D:\TestFolders"/>
+		<add key="spft_host" value="10.252.252.180"/>
+		<add key="sftp_user" value="sfpeqportapp"/>
+		<add key="sftp_password" value="Secure@123"/>
+		<add key="EPPlus:ExcelPackage.LicenseContext" value="NonCommercial" />
+		<add key="sftp_upload_path" value="/sftphome/SFTPUTIWebsite/BBGMIS/BBG/"/>
+	</appSettings>
+</configuration>

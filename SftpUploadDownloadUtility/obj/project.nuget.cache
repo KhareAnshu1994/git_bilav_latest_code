@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "I7K6WgX83pyrid+YGyFeDYKwtzhaQfQAS6uNEjFiKJy6tZaIjEsN9XtZVV3WeA+yt5c62iXtYVmG2sUSHAH0Ig==",
+  "success": true,
+  "projectFilePath": "D:\\BilavUtilitiesNew\\SftpUploadDownloadUtility\\SftpUploadDownloadUtility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SKC\\.nuget\\packages\\epplus\\6.0.4\\epplus.6.0.4.nupkg.sha512",
+    "C:\\Users\\SKC\\.nuget\\packages\\epplus.interfaces\\6.0.0\\epplus.interfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\SKC\\.nuget\\packages\\epplus.system.drawing\\6.0.0\\epplus.system.drawing.6.0.0.nupkg.sha512",
+    "C:\\Users\\SKC\\.nuget\\packages\\microsoft.io.recyclablememorystream\\1.4.1\\microsoft.io.recyclablememorystream.1.4.1.nupkg.sha512",
+    "C:\\Users\\SKC\\.nuget\\packages\\ssh.net\\2020.0.1\\ssh.net.2020.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

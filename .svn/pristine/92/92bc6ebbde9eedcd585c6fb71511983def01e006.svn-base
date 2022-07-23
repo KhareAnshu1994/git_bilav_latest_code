@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+	<configSections>
+		<sectionGroup name="customAppSettingsGroup">
+			<section name="FBILAppSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="SPIndicesAppSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="ASIAIndexAppSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="LBMAAppSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="BaseIndiaAppSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="CommonAppSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="marketwatchSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="AmfiPortalSettings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+			<section name="BseLowVolatilityAppSetting" type="System.Configuration.AppSettingsSection, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+		</sectionGroup>
+		<section name="oracle.manageddataaccess.client" type="OracleInternal.Common.ODPMSectionHandler, Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342"/>
+	</configSections>
+	<connectionStrings>
+		<add name="dbCon" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST= 10.11.30.156)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=mcyprod)));User Id=msci;Password=icsm;"/>
+	</connectionStrings>
+	<customAppSettingsGroup>
+		<FBILAppSettings>
+			<add key="time" value="15:00"/>
+			<add key="running_status" value="off"/>
+		</FBILAppSettings>
+		<SPIndicesAppSettings>
+			<add key="time" value="15:00"/>
+			<add key="running_status" value="off"/>
+		</SPIndicesAppSettings>
+
+		<ASIAIndexAppSettings>
+			<add key="time" value="15:00"/>
+			<add key="running_status" value="off"/>
+		</ASIAIndexAppSettings>
+
+		<BseLowVolatilityAppSetting>
+			<add key="time" value="11:00"/>
+			<add key="running_status" value="on"/>
+		</BseLowVolatilityAppSetting>
+
+		<LBMAAppSettings>
+			<add key="time" value="12:00"/>
+			<add key="running_status" value="off"/>
+		</LBMAAppSettings>
+
+		<BaseIndiaAppSettings>
+			<add key="time" value="17:00"/>
+			<add key="running_status" value="off"/>
+		</BaseIndiaAppSettings>
+
+		<marketwatchSettings>
+			<add key="running_status" value="off"/>
+		</marketwatchSettings>
+
+		<AmfiPortalSettings>
+			<add key="time" value="11:00"/>
+			<add key="running_status" value="off"/>
+		</AmfiPortalSettings>
+
+		<CommonAppSettings>
+			<add key="t_access_key" value="AKIAJBHM7RHLNJ33GNOA"/>
+			<add key="t_secret_key" value="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"/>
+			<add key="from_email" value="alerts@myfundbucket.com"/>
+			<add key="to_email" value="alerts@myfundbucket.com"/>
+			<add key="send_error_log" value="on"/>
+			<add key="MoveDirPath" value="D:\Back"></add>
+			<add key="ErrorLogFile" value="D:\TestFolders\Index Download"></add>
+			<add key="store_json_path" value="D:\TestFolders\Index Download"></add>
+
+			<add key="bloom9AMindexes" value="Dow Jones Industrial Average,NASDAQ Composite Index,FTSE 100 Index"/>
+			<add key="bloom16PMindexes" value="Hang Seng Index,NIKKEI 225 Index"/>
+			<add key="MorningStartTime" value="9"/>
+			<add key="MorningEndTime" value="15"/>
+			<add key="EveningStartTime" value="16"/>
+			<add key="EveningEndTime" value="20"/>
+			<add key="IsmarketWatchRun" value="on"/>
+			<add key="isDownloadallowed" value=""></add>
+			<add key="AmfiPortalIndex" value="CRISIL Short Term Bond Fund Index,CRISIL Liquid Fund Index,CRISIL 10 Year Gilt Index,CRISIL Dynamic Gilt Index,CRISIL Hybrid 35+65 - Aggressive Index,CRISIL Hybrid 85+15 - Conservative Index,CRISIL Short Term Debt Hybrid 75+25 Fund Index,CRISIL Short Term Debt Hybrid 60+40 Fund Index,CRISIL Overnight Index,CRISIL Money Market Index,CRISIL Ultra Short Term Debt Index,CRISIL Low Duration Debt Index,CRISIL Medium Term Debt Index,CRISIL Medium To Long Term Debt Index,CRISIL Dynamic Debt Index,CRISIL Corporate Bond Composite Index,CRISIL Banking and PSU Debt Index,CRISIL Arbitrage Index,CRISIL Equity Savings Index,I-Sec Si-BEX,I-Sec Mi-BEX,I-Sec Li- BEX,CRISIL Composite Bond Fund Index" />
+
+			<add key="Host" value="59.163.45.242" />
+			<add key="Port" value="22" />
+			<add key="Username" value="sftpmsci" />
+			<add key="Password" value="$FTPm$c1" />
+			<add key="sftp_file_location" value=""/>
+		</CommonAppSettings>
+	</customAppSettingsGroup>
+	<startup>
+		<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2"/>
+	</startup>
+	<system.data>
+		<DbProviderFactories>
+			<remove invariant="Oracle.ManagedDataAccess.Client"/>
+			<add name="ODP.NET, Managed Driver" invariant="Oracle.ManagedDataAccess.Client" description="Oracle Data Provider for .NET, Managed Driver" type="Oracle.ManagedDataAccess.Client.OracleClientFactory, Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342"/>
+		</DbProviderFactories>
+	</system.data>
+	<system.web>
+
+		<httpRuntime maxRequestLength="8192" />
+	</system.web>
+	<runtime>
+		<assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+			<dependentAssembly>
+				<publisherPolicy apply="no"/>
+				<assemblyIdentity name="Oracle.ManagedDataAccess" publicKeyToken="89b483f429c47342" culture="neutral"/>
+				<bindingRedirect oldVersion="4.121.0.0 - 4.65535.65535.65535" newVersion="4.122.19.1"/>
+			</dependentAssembly>
+		</assemblyBinding>
+	</runtime>
+	<oracle.manageddataaccess.client>
+		<version number="*">
+			<dataSources>
+				<dataSource alias="SampleDataSource" descriptor="(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCL))) "/>
+			</dataSources>
+		</version>
+	</oracle.manageddataaccess.client>
+</configuration>

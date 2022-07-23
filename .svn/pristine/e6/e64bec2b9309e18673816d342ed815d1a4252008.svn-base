@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<add name="dbCon" connectionString="host=103.228.83.115; Username=postgres; Password=sqlpass; Database=Mcyprod;" />
+	</connectionStrings>
+	<appSettings>
+
+		<add key="CsvFiles" value="R01_EQUITY,R01_DERIVATIVE,R01_INTERSCHEME,R01_MONEYMARKET,R01_DEPOSIT,R01_REPODEALS,R01_DEAL" />
+		<add key="Flformat1" value="R01_Equity" />
+		<add key="Flformat2" value="R01_Derivative" />
+		<add key="FlFormat3" value="R01_INTERSCHEME,R01_MONEYMARKET,R01_DEPOSIT,R01_REPODEALS,R01_DEAL" />
+		<add key="fileFormat" value="csv" />
+		<add key="CsvFileLocation" value="D:\UTI W\SreeKumarcsvLocation\" />
+		<add key="Csv" value="\\10.11.30.158\dofa-shared\bbg\ToMfund\" />
+		<add key="TempCsv" value="D:\UTI W\SreeKumarcsvLocation\TempFiles\" />
+		<add key="Backup" value="D:\UTI W\SreeKumarcsvLocation\backup\" />
+		<add key="AMC" value="D:\UTI W\SreeKumarcsvLocation\MPOWER19C\UTIMF\AMC\" />
+		<add key="ErrorLogFile" value="D:\UTI W\SreeKumarcsvLocation\Logs" />
+		<add key="IsDeleteRecode" value="0" />
+		<add key="IsCsvRun" value="1" />
+
+
+		<!--configuration for xml file-->
+		<add key="xmlFileLocation" value="D:\UTI W\SreeKumarcsvLocation\" />
+		<add key="IsXmlRun" value="1" />
+
+	</appSettings>
+
+	<startup>
+		<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+	</startup>
+</configuration>

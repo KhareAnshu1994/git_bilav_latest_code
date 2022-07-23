@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Index_Download.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Index_Download.classes.asiaindex">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAQg=</HashCode>
+      <FileName>classes\asiaindex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Index_Download.classes.BSEINDEX">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>classes\BSEINDEX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Index_Download.classes.commonHelper">
+    <Position X="9.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAAAAABAAAAAAAAAAAAAgAAEAAUAAAAA=</HashCode>
+      <FileName>classes\commonHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Index_Download.classes.Fbil">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAUAAAAA=</HashCode>
+      <FileName>classes\Fbil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Index_Download.classes.Lbma">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAUAAAAA=</HashCode>
+      <FileName>classes\Lbma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Index_Download.classes.Spindices">
+    <Position X="6" Y="2" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="3.5" Y="1.062" />
+        <Point X="3.5" Y="1.808" />
+        <Point X="6.75" Y="1.808" />
+        <Point X="6.75" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAcAAAAA=</HashCode>
+      <FileName>classes\Spindices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

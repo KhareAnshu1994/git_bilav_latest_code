@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0,Profile=Client"/>
+    </startup>
+  <appSettings>
+	  <add key="Username" value="UTIA2747"/>
+	  <add key="Password" value="g6cdm9Ed"/>
+
+	  <add key="FileMoveDir" value="D:\Cylsys\Log_File\IIFSL Utility\FinalDownloadDir"/>
+	  <add key="DownloadDir" value="C:\Users\Admin\Downloads"/>
+	  <add key="TemplateDir" value="D:\Shashi\UTI_Project\New_Utility\IIFSL_NSE_Utility\IIFSL_NSE_Utility\EmailTemplates"/>
+	  <add key="ErrorLogFile" value="D:\Cylsys\Log_File\IIFSL Utility\ErrorLog"/>
+
+	  <add key="FileSuffixes" value="_SPBSE_SENSEX_NCS_CLS.SDC,_SPBSE_100_NCS_CLS.SDC,_SPBSE_100_NCS_ADJ.SDC,_SPBSE_SENSEX_NCS_ADJ.SDC,_SPBSE_200_NCS_CLS.SDC,_SPBSE_200_NCS_ADJ.SDC,_SPBSHLIP_NCS_CLS.SDC,_SPBSHLIP_NCS_ADJ.SDC" />
+
+	  <add key="ConnectionString" value="Data Source=UAT-SERVER\SQLEXPRESS;Initial Catalog=IIFSL_NSE;UID=sa;password=mfbuat@123;"/>
+
+	  <!--Setting For Mail Send-->
+	  <add key="SenderEmailId" value="test@cylsys.com"/>
+	  <add key="SenderEmailPwd" value="Password@2"/>
+	  <add key="EmailToRecipients" value="shashimaurya1605@gmail.com"/>
+	  <add key="SMTPServer" value="mail.cylsys.com"/>
+	  <add key="SMTPPort" value="587"/>
+
+	  <add key="SFTPhost" value="extsftp.utiamc.com"/>
+	  <add key="SFTPport" value="22"/>
+	  <add key="SFTPusername" value="sftpmsci"/>
+	  <add key="SFTPpassword" value="^3FhtIha"/>
+	  <add key="sftp_upload_location" value="/SFTPMSCI/INDEX_FILES/"/>
+	  <add key="source_file_location" value="D:\Back"/>
+	  <add key="Error_log" value="D:\Back"/>
+
+  </appSettings>
+</configuration>
